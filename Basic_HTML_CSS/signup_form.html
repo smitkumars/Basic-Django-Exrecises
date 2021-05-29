@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Sign up Form</title>
+    <style media="screen">
+
+    </style>
+  </head>
+
+  <body align="center" style="background-color:#EE9E37";>
+    <form method="post">
+      <h1 style="background-color:#91F2F5;" align="center" >Course Sign up Page</h1>
+      <p>Please note.First Name, last name, password required</p>
+      <table border="1" style="background-color:orange" align="center">
+        <tr>
+          <td style="color:red;"><label for="fname"><b>First Name:</b></label>
+          <input id="fname" type="text" name="First Name" value="" placeholder="First Name" required></td>
+          <td style="color:red;"><label for="lname"><b>Last Name:</b></label>
+          <input id="lname" type="text" name="Last Name" value="" placeholder="Last Name" required></td>
+        </tr>
+
+
+      </table>
+
+      <br>
+      <br>
+      <label for="emailname"><b>Email:</b></label>
+      <input id="emailname" type="email" name="Email" value="" placeholder="name@email.com" required>
+      <label for="pname"><b>Password:</b></label>
+      <input id="pname" type="password" name="password" value="" required>
+      <br>
+      <br>
+      <p> Are you over the age of 18?</p>
+      <label for="rbn1"> Yes</label>
+      <input id="rbn1" type="radio" name="yes" value="">
+      <label for="rbn2"> NO</label>
+      <input id="rbn2" type="radio" name="no" value="">
+<br>
+<br>
+      <p>Do you have Paypal or credit card?</p>
+      <select  name="Credit_pay">
+        <option value="Credit"> Credit Card</option>
+        <option value="paypal">Paypal</option>
+
+      </select>
+        <br>
+        <br>
+        <input type="submit" name="submit" value="Submit">
+
+    </form>
+  </body>
+</html>
